@@ -18,7 +18,7 @@ public class Spinner extends JFrame implements ActionListener {
   private Timer timer;
   
   public Spinner() { 
-    super ("Unlucky Dies");
+    super ("UnluckyDie");
     
     try
     {

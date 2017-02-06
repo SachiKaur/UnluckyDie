@@ -9,12 +9,12 @@ import javax.sound.sampled.*;
 public class Win extends JFrame {
   
   private Picture  background;
-  private JLabel lblPic;
+  private JLabel lbl;
   private ImageIcon image;
   private int total,win,lose;
   
   public Win(int round) { 
-    super ("Unlucky Dies");
+    super ("UnluckyDie");
     
     try
     {
@@ -28,17 +28,17 @@ public class Win extends JFrame {
     
     if (round == 1)
     {
-      image = new ImageIcon ("Win.gif");
-      lblPic = new JLabel (); //Initializing JLabels and setting into a specific spots
-      lblPic.setBounds(0,0,500,500);
-      lblPic.setIcon(image);
+      lbl = new JLabel ("             Round 2"); //Initializing JLabels and setting into a specific spots
+      lbl.setBounds(0,0,500,450);
+      lbl.setForeground(Color.WHITE);
+      lbl.setFont(new Font("Serif",Font.PLAIN,50));
     }
     else
     {
-      image = new ImageIcon ("Win1.gif");
-      lblPic = new JLabel (); //Initializing JLabels and setting into a specific spots
-      lblPic.setBounds(0,0,500,500);
-      lblPic.setIcon(image);
+      lbl = new JLabel ("       Yay You Win!!!"); //Initializing JLabels and setting into a specific spots
+      lbl.setBounds(0,0,500,450);
+      lbl.setForeground(Color.WHITE);
+      lbl.setFont(new Font("Serif",Font.PLAIN,50));
     }
     
     try 
@@ -57,7 +57,7 @@ public class Win extends JFrame {
     {        
     }
     
-    add (lblPic);
+    add (lbl);
     add (background);
     
     setResizable (false);
@@ -89,11 +89,13 @@ public class Win extends JFrame {
     {
       Roll myGui = new Roll ();
       setVisible(false);
+      dispose();
     }
     else
     {
-      UnluckyDies myGui = new UnluckyDies();
+      UnluckyDie myGui = new UnluckyDie();
       setVisible(false);
+      dispose();
     }
   }
   public void read (String round)
@@ -129,7 +131,7 @@ public class Win extends JFrame {
     }
   }
   public static void main(String[] args) { 
-    Win myGui = new Win(1);
+    Win myGui = new Win(2);
   }
   
   /* ADD YOUR CODE HERE */

@@ -19,7 +19,7 @@ public class Card extends JFrame implements ActionListener {
   private int value;
   
   public Card(int dieValue) { 
-    super ("Unlucky Dies");
+    super ("UnluckyDie");
     
     value = dieValue;
     
@@ -111,11 +111,13 @@ public class Card extends JFrame implements ActionListener {
       {
        Win gui = new Win (2); 
        setVisible(false);
+       dispose();
       }
       else
       {
        Lose gui = new Lose(2); 
        setVisible(false);
+       dispose();
       }
     }
   }

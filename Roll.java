@@ -18,7 +18,7 @@ public class Roll extends JFrame implements ActionListener {
   private Timer timer;
   
   public Roll() { 
-    super ("Unlucky Dies");
+    super ("UnluckyDie");
     
     try
     {
@@ -127,6 +127,7 @@ public class Roll extends JFrame implements ActionListener {
     public void run (  )   {
       Card cardGui = new Card ((die1.getValue()+die2.getValue()));
       setVisible(false);
+      dispose();
     }
   }
   

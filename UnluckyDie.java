@@ -4,15 +4,15 @@ import java.awt.event.*;
 import java.awt.Color;
 import java.io.*;
 import javax.imageio.*;
-public class UnluckyDies extends JFrame implements ActionListener {
+public class UnluckyDie extends JFrame implements ActionListener {
   
   private Picture  background;
   private JButton enter;
   private ImageIcon image;
-  private JLabel lblPic;
+  private JLabel lblPic,lbl,lbl1;
   
-  public UnluckyDies() { 
-    super ("Unlucky Dies");
+  public UnluckyDie() { 
+    super ("UnluckyDie");
     
     try
     {
@@ -24,15 +24,26 @@ public class UnluckyDies extends JFrame implements ActionListener {
     {
     }
     String sachi [][] = new String [5][6];
-    image = new ImageIcon ("background.gif");
+    image = new ImageIcon ();
     lblPic = new JLabel (); //Initializing JLabels and setting into a specific spots
-    lblPic.setBounds(0,0,500,470);
+    lblPic.setBounds(0,0,500,500);
     lblPic.setIcon(image);
+
+    lbl = new JLabel ("                      Unlucky Die");
+    lbl1 = new JLabel("       Are you ready to test your luck?     "); 
+    lbl.setBounds(0,0,500,800);
+    lbl1.setBounds(0,0,500,875);
+    lbl1.setForeground(Color.WHITE);
+    lbl.setForeground(Color.WHITE);
+    lbl1.setFont(new Font("Serif",Font.PLAIN,30));
+    lbl.setFont(new Font("Serif",Font.PLAIN,30));
     
     enter = new JButton ("Enter");
     enter.setBounds (175,250,150,50);
     
     add (enter);
+    add (lbl);
+    add (lbl1);
     add (lblPic);
     add (background);
     
@@ -50,10 +61,11 @@ public class UnluckyDies extends JFrame implements ActionListener {
     {
       Spinner newGui = new Spinner();
       setVisible (false);
+      dispose();
     }
   }
   public static void main(String[] args) { 
-    UnluckyDies myGui = new UnluckyDies();
+    UnluckyDie myGui = new UnluckyDie();
   }
   
   /* ADD YOUR CODE HERE */
