@@ -127,6 +127,7 @@ public class Roll extends JFrame implements ActionListener {
     public void run (  )   {
       Card cardGui = new Card ((die1.getValue()+die2.getValue()));
       setVisible(false);
+      dispose();
     }
   }
   

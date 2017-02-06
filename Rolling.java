@@ -151,26 +151,31 @@ public class Rolling extends JFrame implements ActionListener {
         {
           Win newGui = new Win(1);
           setVisible (false);  
+          dispose();
         }
         else if (die1.getValue() + die2.getValue() + die3.getValue() == 4)
         {
           Win newGui = new Win(1);
           setVisible (false);  
+          dispose();
         }
         else if (die1.getValue() + die2.getValue() + die3.getValue() == 5)
         {
           Win newGui = new Win(1);
           setVisible (false);  
+          dispose();
         }
         else if (die1.getValue() + die2.getValue() + die3.getValue() == 6)
         {
           Win newGui = new Win(1);
           setVisible (false);  
+          dispose();
         }
         else
         {
           Lose newGui = new Lose(1);
           setVisible (false);  
+          dispose();
         }
       }
       else if (number == 1)
@@ -179,21 +184,25 @@ public class Rolling extends JFrame implements ActionListener {
         {
           Win newGui = new Win(1);
           setVisible (false);  
+          dispose();
         }
         else if (die1.getValue() + die2.getValue() + die3.getValue() == 9)
         {
           Win newGui = new Win(1);
           setVisible (false);  
+          dispose();
         }
         else if (die1.getValue() + die2.getValue() + die3.getValue() == 16)
         {
           Win newGui = new Win(1);
           setVisible (false);  
+          dispose();
         }
         else
         {
           Lose newGui = new Lose(1);
           setVisible (false);  
+          dispose();
         }
       }
       else if (number == 2)
@@ -202,26 +211,31 @@ public class Rolling extends JFrame implements ActionListener {
         {
           Win newGui = new Win(1);
           setVisible (false);  
+          dispose();
         }
         else if (die1.getValue() + die2.getValue() + die3.getValue() == 12)
         {
           Win newGui = new Win(1);
           setVisible (false);  
+          dispose();
         }
         else if (die1.getValue() + die2.getValue() + die3.getValue() == 13)
         {
           Win newGui = new Win(1);
           setVisible (false);  
+          dispose();
         }
         else if (die1.getValue() + die2.getValue() + die3.getValue() == 14)
         {
           Win newGui = new Win(1);
           setVisible (false);  
+          dispose();
         }
         else
         {
           Lose newGui = new Lose(1);
           setVisible (false);  
+          dispose();
         }
       }
       else if (number == 3)
@@ -229,47 +243,56 @@ public class Rolling extends JFrame implements ActionListener {
         if (die1.getValue() + die2.getValue() + die3.getValue() == 4)
         {
           Win newGui = new Win(1);
-          setVisible (false);  
+          setVisible (false); 
+          dispose(); 
         }
         else if (die1.getValue() + die2.getValue() + die3.getValue() == 6)
         {
           Win newGui = new Win(1);
           setVisible (false);  
+          dispose();
         }
         else if (die1.getValue() + die2.getValue() + die3.getValue() == 8)
         {
           Win newGui = new Win(1);
           setVisible (false);  
+          dispose();
         }
         else if (die1.getValue() + die2.getValue() + die3.getValue() == 10)
         {
           Win newGui = new Win(1);
           setVisible (false);  
+          dispose();
         }
         else if (die1.getValue() + die2.getValue() + die3.getValue() == 12)
         {
           Win newGui = new Win(1);
           setVisible (false);  
+          dispose();
         }
         else if (die1.getValue() + die2.getValue() + die3.getValue() == 14)
         {
           Win newGui = new Win(1);
           setVisible (false);  
+          dispose();
         }
         else if (die1.getValue() + die2.getValue() + die3.getValue() == 16)
         {
           Win newGui = new Win(1);
           setVisible (false);  
+          dispose();
         }
         else if (die1.getValue() + die2.getValue() + die3.getValue() == 18)
         {
           Win newGui = new Win(1);
           setVisible (false);  
+          dispose();
         }
         else
         {
           Lose newGui = new Lose(1);
-          setVisible (false);  
+          setVisible (false); 
+          dispose(); 
         }
       }
       else if (number == 4)
@@ -277,27 +300,32 @@ public class Rolling extends JFrame implements ActionListener {
         if (die1.getValue() + die2.getValue() + die3.getValue() == 7)
         {
           Win newGui = new Win(1);
-          setVisible (false);  
+          setVisible (false); 
+          dispose(); 
         }
         else if (die1.getValue() + die2.getValue() + die3.getValue() == 8)
         {
           Win newGui = new Win(1);
           setVisible (false);  
+          dispose();
         }
         else if (die1.getValue() + die2.getValue() + die3.getValue() == 9)
         {
           Win newGui = new Win(1);
           setVisible (false);  
+          dispose();
         }
         else if (die1.getValue() + die2.getValue() + die3.getValue() == 10)
         {
           Win newGui = new Win(1);
           setVisible (false);  
+          dispose();
         }
         else
         {
           Lose newGui = new Lose(1);
           setVisible (false);  
+          dispose();
         }
       }
       else if (number == 5)
@@ -306,36 +334,43 @@ public class Rolling extends JFrame implements ActionListener {
         {
           Win newGui = new Win(1);
           setVisible (false);  
+          dispose();
         }
         else if (die1.getValue() + die2.getValue() + die3.getValue() == 6)
         {
           Win newGui = new Win(1);
           setVisible (false);  
+          dispose();
         }
         else if (die1.getValue() + die2.getValue() + die3.getValue() == 9)
         {
           Win newGui = new Win(1);
           setVisible (false);  
+          dispose();
         }
         else if (die1.getValue() + die2.getValue() + die3.getValue() == 12)
         {
           Win newGui = new Win(1);
           setVisible (false);  
+          dispose();
         }
         else if (die1.getValue() + die2.getValue() + die3.getValue() == 15)
         {
           Win newGui = new Win(1);
           setVisible (false);  
+          dispose();
         }
         else if (die1.getValue() + die2.getValue() + die3.getValue() == 18)
         {
           Win newGui = new Win(1);
           setVisible (false);  
+          dispose();
         }
         else
         {
           Lose newGui = new Lose(1);
           setVisible (false);  
+          dispose();
         }
       }
       else if (number == 5)
@@ -344,26 +379,31 @@ public class Rolling extends JFrame implements ActionListener {
         {
           Win newGui = new Win(1);
           setVisible (false);  
+          dispose();
         }
         else if (die1.getValue() + die2.getValue() + die3.getValue() == 16)
         {
           Win newGui = new Win(1);
-          setVisible (false);  
+          setVisible (false); 
+          dispose(); 
         }
         else if (die1.getValue() + die2.getValue() + die3.getValue() == 17)
         {
           Win newGui = new Win(1);
-          setVisible (false);  
+          setVisible (false); 
+          dispose(); 
         }
         else if (die1.getValue() + die2.getValue() + die3.getValue() == 18)
         {
           Win newGui = new Win(1);
           setVisible (false);  
+          dispose();
         }
         else
         {
           Lose newGui = new Lose(1);
-          setVisible (false);  
+          setVisible (false); 
+          dispose(); 
         }
       }
       else if (number == 7)
@@ -372,46 +412,55 @@ public class Rolling extends JFrame implements ActionListener {
         {
           Win newGui = new Win(1);
           setVisible (false);  
+          dispose();
         }
         else if (die1.getValue() + die2.getValue() + die3.getValue() == 5)
         {
           Win newGui = new Win(1);
-          setVisible (false);  
+          setVisible (false);
+          dispose();  
         }
         else if (die1.getValue() + die2.getValue() + die3.getValue() == 7)
         {
           Win newGui = new Win(1);
           setVisible (false);  
+          dispose();
         }
         else if (die1.getValue() + die2.getValue() + die3.getValue() == 9)
         {
           Win newGui = new Win(1);
-          setVisible (false);  
+          setVisible (false);
+          dispose();  
         }
         else if (die1.getValue() + die2.getValue() + die3.getValue() == 11)
         {
           Win newGui = new Win(1);
-          setVisible (false);  
+          setVisible (false);
+          dispose();  
         }
         else if (die1.getValue() + die2.getValue() + die3.getValue() == 13)
         {
           Win newGui = new Win(1);
           setVisible (false);  
+          dispose();
         }
         else if (die1.getValue() + die2.getValue() + die3.getValue() == 15)
         {
           Win newGui = new Win(1);
           setVisible (false);  
+          dispose();
         }
         else if (die1.getValue() + die2.getValue() + die3.getValue() == 17)
         {
           Win newGui = new Win(1);
           setVisible (false);  
+          dispose();
         }
         else
         {
           Lose newGui = new Lose(1);
-          setVisible (false);  
+          setVisible (false); 
+          dispose(); 
         }
       }
     }

@@ -28,15 +28,17 @@ public class Win extends JFrame {
     
     if (round == 1)
     {
-      lbl = new JLabel ("Round 2"); //Initializing JLabels and setting into a specific spots
-      lbl.setBounds(0,0,500,500);
+      lbl = new JLabel ("             Round 2"); //Initializing JLabels and setting into a specific spots
+      lbl.setBounds(0,0,500,450);
       lbl.setForeground(Color.WHITE);
+      lbl.setFont(new Font("Serif",Font.PLAIN,50));
     }
     else
     {
-      lbl = new JLabel ('Yay You Win!!!'); //Initializing JLabels and setting into a specific spots
-      lbl.setBounds(0,0,500,500);
+      lbl = new JLabel ("       Yay You Win!!!"); //Initializing JLabels and setting into a specific spots
+      lbl.setBounds(0,0,500,450);
       lbl.setForeground(Color.WHITE);
+      lbl.setFont(new Font("Serif",Font.PLAIN,50));
     }
     
     try 
@@ -55,8 +57,7 @@ public class Win extends JFrame {
     {        
     }
     
-    add (lbl)
-    add (lblPic);
+    add (lbl);
     add (background);
     
     setResizable (false);
@@ -88,11 +89,13 @@ public class Win extends JFrame {
     {
       Roll myGui = new Roll ();
       setVisible(false);
+      dispose();
     }
     else
     {
       UnluckyDie myGui = new UnluckyDie();
       setVisible(false);
+      dispose();
     }
   }
   public void read (String round)
@@ -128,7 +131,7 @@ public class Win extends JFrame {
     }
   }
   public static void main(String[] args) { 
-    Win myGui = new Win(1);
+    Win myGui = new Win(2);
   }
   
   /* ADD YOUR CODE HERE */

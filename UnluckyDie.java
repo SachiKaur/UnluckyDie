@@ -61,6 +61,7 @@ public class UnluckyDie extends JFrame implements ActionListener {
     {
       Spinner newGui = new Spinner();
       setVisible (false);
+      dispose();
     }
   }
   public static void main(String[] args) { 

@@ -76,6 +76,7 @@ public class Lose extends JFrame {
     
     UnluckyDie myGui = new UnluckyDie();
     setVisible(false);
+    dispose();
     
   }
   public void read (String round)
