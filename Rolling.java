@@ -19,7 +19,7 @@ public class Rolling extends JFrame implements ActionListener {
   private Timer timer;
   
   public Rolling(int num) { 
-    super ("Unlucky Dies");
+    super ("UnluckyDie");
     
     number = num;
     

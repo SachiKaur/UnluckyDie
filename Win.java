@@ -14,7 +14,7 @@ public class Win extends JFrame {
   private int total,win,lose;
   
   public Win(int round) { 
-    super ("Unlucky Dies");
+    super ("UnluckyDie");
     
     try
     {
@@ -91,7 +91,7 @@ public class Win extends JFrame {
     }
     else
     {
-      UnluckyDies myGui = new UnluckyDies();
+      UnluckyDie myGui = new UnluckyDie();
       setVisible(false);
     }
   }

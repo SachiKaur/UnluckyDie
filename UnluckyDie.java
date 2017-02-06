@@ -12,7 +12,7 @@ public class UnluckyDie extends JFrame implements ActionListener {
   private JLabel lblPic,lbl,lbl1;
   
   public UnluckyDie() { 
-    super ("Unlucky Die");
+    super ("UnluckyDie");
     
     try
     {
