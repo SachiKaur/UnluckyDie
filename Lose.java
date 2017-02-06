@@ -74,7 +74,7 @@ public class Lose extends JFrame {
     {      
     }
     
-    UnluckyDies myGui = new UnluckyDies();
+    UnluckyDie myGui = new UnluckyDie();
     setVisible(false);
     
   }

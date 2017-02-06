@@ -9,7 +9,7 @@ import javax.sound.sampled.*;
 public class Win extends JFrame {
   
   private Picture  background;
-  private JLabel lblPic;
+  private JLabel lbl;
   private ImageIcon image;
   private int total,win,lose;
   
@@ -28,17 +28,15 @@ public class Win extends JFrame {
     
     if (round == 1)
     {
-      image = new ImageIcon ("Win.gif");
-      lblPic = new JLabel (); //Initializing JLabels and setting into a specific spots
-      lblPic.setBounds(0,0,500,500);
-      lblPic.setIcon(image);
+      lbl = new JLabel ("Round 2"); //Initializing JLabels and setting into a specific spots
+      lbl.setBounds(0,0,500,500);
+      lbl.setForeground(Color.WHITE);
     }
     else
     {
-      image = new ImageIcon ("Win1.gif");
-      lblPic = new JLabel (); //Initializing JLabels and setting into a specific spots
-      lblPic.setBounds(0,0,500,500);
-      lblPic.setIcon(image);
+      lbl = new JLabel ('Yay You Win!!!'); //Initializing JLabels and setting into a specific spots
+      lbl.setBounds(0,0,500,500);
+      lbl.setForeground(Color.WHITE);
     }
     
     try 
@@ -57,6 +55,7 @@ public class Win extends JFrame {
     {        
     }
     
+    add (lbl)
     add (lblPic);
     add (background);
     

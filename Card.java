@@ -19,7 +19,7 @@ public class Card extends JFrame implements ActionListener {
   private int value;
   
   public Card(int dieValue) { 
-    super ("Unlucky Dies");
+    super ("UnluckyDie");
     
     value = dieValue;
     
